@@ -1248,7 +1248,7 @@ nav a:hover{
         display: block;
         width: 18%;
         position: absolute;
-        left: 84%;
+        left: 86%;
         top: 0;
         background-color: #8147ff46;
         transition: transform .5s;
@@ -1266,7 +1266,7 @@ nav a:hover{
         -o-transform: translateX(100%);
     }
 }
-@media(max-width: 779px){
+@media(max-width: 679px){
     .starter h2{
         font-size: 24px;
         width: 373px;
@@ -1324,6 +1324,9 @@ nav a:hover{
     .accordion-head{
         font-size: 26px;
     }
+    .accordion-block{
+        font-size: 22px;
+    }
     .b-text1{
         margin-left: -55%;
     }
@@ -1334,7 +1337,7 @@ nav a:hover{
         margin-left: -55%;
     }
 }
-@media(max-width:588px){
+@media(max-width:595px){
     #open__modal{
         width: 125px;
         height: 50px;
@@ -1357,5 +1360,138 @@ nav a:hover{
     }
     .b-text3{
         margin-left: -62%;
+    }
+}
+@media(max-width:560px){
+    .flexbox{
+        width: 80%;
+    }
+    .nav{
+        left: 84%;
+        width: 20%;
+    }
+    .im1{
+        margin-left: 10%;
+    }
+    .card1 h1{
+        margin-left: 10%;
+    }
+    .card1 p{
+        margin-left: 10%;
+    }
+    .slider-card{
+        height: 460px;
+    }
+    .im2{
+        margin-left: 10%;
+    }
+    .card2 h1{
+        margin-left: 10%;
+    }
+    .card2 p{
+        margin-left: 10%;
+    }
+    .im3{
+        margin-left: 10%;
+    }
+    .card3 h1{
+        margin-left: 10%;
+    }
+    .card3 p{
+        margin-left: 10%;
+    }
+    .im4{
+        margin-left: 10%;
+    }
+    .card4 h1{
+        margin-left: 10%;
+    }
+    .card4 p{
+        margin-left: 10%;
+    }
+    .b-text1{
+        margin-left: -68%;
+    }
+    .b-text2{
+        margin-left: -68%;
+    }
+    .b-text3{
+        margin-left: -68%;
+    }
+    .pay{
+        width: 84%;
+    }
+    .cost{
+        margin-left: 10%;
+    }
+    .modal_img{
+        padding-left: 2%;
+    }
+    .modal__close{
+        margin-left: 70%;
+    }
+    .starter h2{
+        width: 300px;
+    }
+    .starter{
+        height: 920px;
+    }
+    .premium h2{
+        width: 300px;
+    }
+}
+@media(max-width: 545px){
+    .one{
+        height:400px;
+        margin-top: -14%;
+    }
+    .two{
+        height: 400px;
+        margin-top: -14%;
+    }
+    .three{
+        height: 400px;
+        margin-top: -14%;
+    }
+    .b-text1 p{
+        width: 290px;
+    }
+    .b-text2 p{
+        width: 290px;
+    }
+    .b-text3 p{
+        width: 290px;
+    }
+    .b-text1 h2{
+        margin-top: 1%;
+    }
+    .b-text2 h2{
+        margin-top: 1%;
+    }
+    .b-text3 h2{
+        margin-top: 1%;
+    }
+    .sec4{
+        flex-direction: column;
+        align-items: center;
+    }
+    .tabs-nav{
+        width: 10%;
+        flex-direction: row;
+        display: flex;
+        margin-left: -52%;
+    }
+    .item{
+        height: 10%;
+        padding: 13px;
+        border-radius: 0;
+    }
+}
+@media(max-width: 515px){
+    .b-text1{
+        margin-left: -74%;
+    }
+    .one{
+        width: 90%;
     }
 }
