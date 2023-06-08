@@ -885,31 +885,34 @@ nav a:hover{
     -ms-transition: transform .5s, opacity .5s, background-color .5s;
     -o-transition: transform .5s, opacity .5s, background-color .5s;
 }
-.header.open .burger-btn span:nth-child(1) {
+.burger-btn span:nth-child(1) {
     transform: translateY(0) rotate(45deg);
     -webkit-transform: translateY(0) rotate(45deg);
     -moz-transform: translateY(0) rotate(45deg);
     -ms-transform: translateY(0) rotate(45deg);
     -o-transform: translateY(0) rotate(45deg);
 }
-.header.open .burger-btn span:nth-child(2) {
+.burger-btn span:nth-child(2) {
     opacity: 0;
 }
-.header.open .burger-btn span:nth-child(3) {
+.burger-btn span:nth-child(3) {
     transform: translateY(0) rotate(-45deg);
     -webkit-transform: translateY(0) rotate(-45deg);
     -moz-transform: translateY(0) rotate(-45deg);
     -ms-transform: translateY(0) rotate(-45deg);
     -o-transform: translateY(0) rotate(-45deg);
 }
-.burger-btn span:nth-child(1) {
+.header.open .burger-btn span:nth-child(1) {
     transform: translateY(-10px);
     -webkit-transform: translateY(-10px);
     -moz-transform: translateY(-10px);
     -ms-transform: translateY(-10px);
     -o-transform: translateY(-10px);
 }
-.burger-btn span:nth-child(3) {
+.header.open .burger-btn span:nth-child(2){
+    opacity: 1;
+}
+.header.open .burger-btn span:nth-child(3) {
     transform: translateY(10px);
     -webkit-transform: translateY(10px);
     -moz-transform: translateY(10px);
@@ -1068,6 +1071,9 @@ nav a:hover{
         font-size: 28px;
     }
     .table1{
+        width: 35%;
+    }
+    .table2{
         width: 35%;
     }
     .table2-1{
@@ -1489,9 +1495,287 @@ nav a:hover{
 }
 @media(max-width: 515px){
     .b-text1{
-        margin-left: -74%;
+        margin-left: -68%;
     }
     .one{
         width: 90%;
     }
+    .b-text2{
+        margin-left: -68%;
+    }
+    .two{
+        width: 90%;
+    }
+    .b-text3{
+        margin-left: -68%;
+    }
+    .three{
+        width: 90%;
+    }
+}
+@media(max-width: 501px){
+    .filter-nav{
+        font-size: 28px;
+        margin-left: 8%;
+    }
+    .ellips{
+        margin-top: 2%;
+        width: 16px;
+        height: 16px;
+    }
+    .starter h1{
+        font-size: 42px;
+        margin-top: 7%;
+    }
+    .starter h2{
+        font-size: 20px;
+        margin-top: 4%;
+        width: 280px;
+    }
+    .table1 p{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .table2 p{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .table2-1 p{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .premium h1{
+        font-size: 42px;
+    }
+    .premium h2{
+        font-size: 20px;
+        margin-top: 4%;
+        width: 266px;
+    }
+    .cost h3{
+        font-size: 45px;
+    }
+    .pay{
+        width: 80%;
+    }
+    .starter{
+        height: 780px;
+    }
+    .premium button{
+        width: 270px;
+        height: 70px;
+    }
+    .premium{
+        height: 725px;
+    }
+    .accordion-head{
+        font-size: 22px;
+    }
+    .im1{
+        max-width: 75px;
+        margin-top: 12%;
+    }
+    .im2{
+        max-width: 75px;
+        margin-top: 12%;
+    }
+    .im3{
+        max-width: 75px;
+        margin-top: 12%;
+    }
+    .im4{
+        max-width: 75px;
+        margin-top: 12%;
+    }
+    .card1 p{
+        font-size: 14px;
+        line-height: 20px;
+        width: 200px;
+    }
+    .card2 p{
+        font-size: 14px;
+        line-height: 20px;
+        width: 200px;
+    }
+    .card3 p{
+        font-size: 14px;
+        line-height: 20px;
+        width: 200px;
+    }
+    .card4 p{
+        font-size: 14px;
+        line-height: 20px;
+        width: 200px;
+    }
+    .card1 h1{
+        font-size: 18px;
+    }
+    .card2 h1{
+        font-size: 18px;
+    }
+    .card3 h1{
+        font-size: 18px;
+    }
+    .card4 h1{
+        font-size: 18px;
+    }
+    .slider-card{
+        height: 350px;
+    }
+    .next img{
+        width: 35px;
+    }
+    .prev img{
+        width: 35px;
+    }
+    .next{
+        margin-top: 25%;
+    }
+    .prev{
+        margin-top: 25%;
+    }
+    .modal_img img{
+        width: 70%;
+        margin-left: 4%;
+    }
+    .modal__close{
+        margin-left: 63%;
+    }
+    .nav{
+        left: 82%;
+        width: 22%;
+    }
+}
+@media(max-width: 472px){
+    .b-text1 p{
+        font-size: 20px;
+        width: 270px;
+        line-height: 25px;
+    }
+    .other{
+        font-size: 20px;
+        width: 270px;
+        line-height: 25px;
+    }
+    .b-text1 h2{
+        font-size: 24px;
+    }
+    .one{
+        height: 348px;
+    }
+    .b-text2 p{
+        font-size: 20px;
+        width: 270px;
+        line-height: 25px;
+    }
+    .b-text2 h3{
+        font-size: 20px;
+        width: 270px;
+        line-height: 25px;
+    }
+    .b-text2 h2{
+        font-size: 24px;
+    }
+    .two{
+        height: 348px;
+    }
+    .b-text3 p{
+        font-size: 20px;
+        width: 270px;
+        line-height: 25px;
+    }
+    .b-text3 h3{
+        font-size: 20px;
+        width: 270px;
+        line-height: 25px;
+    }
+    .b-text3 h2{
+        font-size: 24px;
+    }
+    .three{
+        height: 348px;
+    }
+    .nav{
+        width: 24%;
+        left: 80%;
+    }
+    .sec1_text h1{
+        font-size: 40px;
+    }
+    .block1 h1{
+        margin-top: 10%;
+    }
+}
+@media(max-width: 453px){
+    .block1 h1{
+        font-size: 28px;
+        line-height: 38px;
+    }
+    .card1 p{
+        width: 180px;
+    }
+    .card2 p{
+        width: 180px;
+    }
+    .card3 p{
+        width: 180px;
+    }
+    .card4 p{
+        width: 180px;
+    }
+    .b-text1{
+        margin-left: -75%;
+    }
+    .b-text2{
+        margin-left: -75%;
+    }
+    .b-text3{
+        margin-left: -75%;
+    }
+    .accordion-head{
+        line-height: 32px;
+    }
+}
+@media(max-width:440px){
+    .premium button{
+        width: 248px;
+        height: 60px;
+    }
+    .premium{
+        height: 750px;
+    }
+    .premium h1{
+        margin-top: 10%;
+    }
+    .premium h2{
+        width: 240px;
+    }
+    .pay{
+        width: 65%;
+    }
+    .cost{
+        margin-left: 30%;
+    }
+    .cost h3{
+        font-size: 40px;
+    }
+    .b-text1{
+        margin-left: -80%;
+    }
+    .b-text2{
+        margin-left: -80%;
+    }
+    .b-text3{
+        margin-left: -80%;
+    }
+    .card4 h1{
+        width: 85%;
+        line-height: 30px;
+    }
+    .sec1_text h1{
+        font-size: 38px;
+    }
+}
+@media(max-width: 419px){
+    
 }
