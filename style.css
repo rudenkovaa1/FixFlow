@@ -919,6 +919,25 @@ nav a:hover{
     -ms-transform: translateY(10px);
     -o-transform: translateY(10px);
 }
+#open__modal1{
+    background: #8247FF;
+    border-radius: 200px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 226px;
+    height: 80px;
+    margin-top: 5%;
+    margin-left: 42%;
+}
+#open__modal1 img{
+    margin-left: 15px;
+    margin-top: 1%;
+}
 @media(max-width: 1201px){
     .tab{
         display: none;
@@ -1079,7 +1098,7 @@ nav a:hover{
     .table2-1{
         width: 35%;
     }
-    #open__modal{
+    #open__modal1{
         width: 188px;
     }
 }
@@ -1126,12 +1145,15 @@ nav a:hover{
         font-size: 28px;
         width: 400px;
     }
-    #open__modal{
+    #open__modal1{
         width: 170px;
         height: 70px;
     }
     .filter-nav{
         font-size: 46px;
+    }
+    #open__modal{
+        margin-left: 36%;
     }
 }
 @media(max-width:734px){
@@ -1256,13 +1278,16 @@ nav a:hover{
         position: absolute;
         left: 86%;
         top: 0;
-        background-color: #8147ff46;
+        background-color: #030205b6;
         transition: transform .5s;
         -webkit-transition: transform .5s;
         -moz-transition: transform .5s;
         -ms-transition: transform .5s;
         -o-transition: transform .5s;
         z-index: 100;
+    }
+    .nav a{
+        color: #D4D4D4;
     }
     .header.open .nav{
         transform: translateX(100%);
@@ -1280,7 +1305,7 @@ nav a:hover{
     .premium h2{
         font-size: 24px;
     }
-    #open__modal{
+    #open__modal1{
         width: 150px;
         height: 65px;
         font-size: 16px;
@@ -1344,7 +1369,7 @@ nav a:hover{
     }
 }
 @media(max-width:595px){
-    #open__modal{
+    #open__modal1{
         width: 125px;
         height: 50px;
         font-size: 13px;
@@ -1491,6 +1516,11 @@ nav a:hover{
         height: 10%;
         padding: 13px;
         border-radius: 0;
+    }
+    #open__modal{
+        margin-left: 30%;
+        width: 200px;
+        height: 65px;
     }
 }
 @media(max-width: 515px){
@@ -1777,5 +1807,275 @@ nav a:hover{
     }
 }
 @media(max-width: 419px){
-    
+    .sec1_text h1{
+        font-size: 36px;
+        line-height: 40px;
+    }
+    .item{
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .b-text1 h2{
+        font-size: 20px;
+    }
+    .b-text1 p{
+        font-size: 16px;
+    }
+    .other{
+        font-size: 16px;
+    }
+    .b-text1 p{
+        width: 41%;
+    }
+    .one{
+        height: 285px;
+    }
+    .modal_img img{
+        margin-left: 0%;
+        margin-top: 45%;
+    }
+    .modal__close{
+        margin-top: 56%;
+        margin-left: 60%;
+    }
+    .b-text2 h2{
+        font-size: 20px;
+    }       
+    .b-text2 p{
+        font-size: 16px;
+    }
+    .b-text2 h3{
+        font-size: 16px;
+    }
+    .b-text2 p{
+        width: 41%;
+    }
+    .two{
+        height: 285px;
+    }
+    .b-text3 h2{
+        font-size: 20px;
+    }
+    .b-text3 p{
+        font-size: 16px;
+    }
+    .b-text3 h3{
+        font-size: 16px;
+    }
+    .b-text3 p{
+        width: 41%;
+    }
+    .three{
+        height: 285px;
+    }
+    .nav{
+        width: 30%;
+        left: 68%;
+    }
+    .filter-nav{
+        font-size: 25px;
+    }
+    .pricing p{
+        font-size: 20px;
+        margin-left: 2%;
+    }
+    .starter h1{
+        font-size: 36px;
+    }
+    .starter h2{
+        font-size: 16px;
+        line-height: 20px;
+        width: 227px;
+    }
+    .tables{
+        margin-top: 10%;
+    }
+    .cost h3{
+        font-size: 34px;
+    }
+    .starter{
+        height: 700px;
+    }
+    .premium h1{
+        font-size: 36px;
+    }
+    .premium h2{
+        font-size: 16px;
+        line-height: 20px;
+        width: 227px;
+    }
+    .premium button{
+        width: 230px;
+    }
+    .premium{
+        height: 670px;
+    }
+    .FAQ p{
+        font-size: 20px;
+        margin-left: 2%;
+    }
+    .next img{
+        width: 30px;
+    }
+    .prev img{
+        width: 30px;
+    }
+    #open__modal{
+        width: 165px;
+        height: 57px;
+        font-size: 16px;
+    }
+}
+@media(max-width: 381px){
+    .sec1_text h1{
+        font-size: 32px;
+    }
+    .block1 h1{
+        font-size: 24px;
+    }
+    .nav{
+        left: 70%;
+        padding-top: 20%;
+    }
+    .block1 button{
+        width: 600px;
+    }
+    .b-text1{
+        margin-left: -89%;
+        margin-top: 10%;
+    }
+    .b-text2{
+        margin-left: -89%;
+        margin-top: 10%;
+    }
+    .b-text3{
+        margin-left: -89%;
+        margin-top: 10%;
+    }
+    .im1{
+        max-width: 65px;
+    }
+    .card1 h1{
+        font-size: 16px;
+    }
+    .card1 p{
+        font-size: 12px;
+        width: 143px;
+    }
+    .card1{
+        height: 315px;
+    }
+    .im2{
+        max-width: 65px;
+    }
+    .card2 h1{
+        font-size: 16px;
+    }
+    .card2 p{
+        font-size: 12px;
+        width: 143px;
+    }
+    .card2{
+        height: 315px;
+    }
+    .im3{
+        max-width: 65px;
+    }
+    .card3 h1{
+        font-size: 16px;
+    }
+    .card3 p{
+        font-size: 12px;
+        width: 143px;
+    }
+    .card3{
+        height: 315px;
+    }
+    .im4{
+        max-width: 65px;
+    }
+    .card4 h1{
+        font-size: 16px;
+    }
+    .card4 p{
+        font-size: 12px;
+        width: 143px;
+    }
+    .card4{
+        height: 315px;
+    }
+    .next img{
+        width: 25px;
+    }
+    .prev img{
+        width: 25px;
+    }
+    .starter h2{
+        width: 200px;
+    }
+    .premium h2{
+        width: 200px;
+    }
+    .table1 p{
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .table2 p{
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .table2-1 p{
+        font-size: 13px;
+        line-height: 20px;
+    }
+    #open__modal1{
+        width: 115px;
+        height: 40px;
+        font-size: 12px;
+        margin-top: 25%;
+    }
+    .cost h3{
+        font-size: 28px;
+    }
+    .cost p{
+        font-size: 11px;
+        line-height: 17px;
+    }
+    .starter{
+        height: 640px;
+    }
+    .premium button{
+        width: 200px;
+        font-size: 14px;
+    }
+    .premium{
+        height: 580px;
+    }
+    .accordion-head{
+        font-size: 18px;
+    }
+}
+@media(max-width:353px){
+    .sec1_text h1{
+        font-size: 30px;
+    }
+    .block1 h1{
+        font-size: 20px;
+        line-height: 29px;
+    }
+    .b-text1{
+        margin-left: -100%;
+    }
+    .b-text2{
+        margin-left: -100%;
+    }
+    .b-text3{
+        margin-left: -100%;
+    }
+    .filter-nav{
+        font-size: 22px;
+    }
+    .premium button{
+        height: 43px;
+    }
 }
