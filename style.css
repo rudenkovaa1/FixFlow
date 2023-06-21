@@ -938,6 +938,7 @@ nav a:hover{
     margin-left: 15px;
     margin-top: 1%;
 }
+
 @media(max-width: 1201px){
     .tab{
         display: none;
@@ -2077,5 +2078,169 @@ nav a:hover{
     }
     .premium button{
         height: 43px;
+    }
+}
+@media(max-width:321px){
+    .nav{
+        width: 39%;
+        left: 65%;
+    }
+    #open__modal{
+        width: 150px;
+        margin-left: 27%;
+    }
+    .im1{
+        width: 53px;
+    }
+    .im2{
+        width: 53px;
+    }
+    .im3{
+        width: 53px;
+    }
+    .im4{
+        width: 53px;
+    }
+    .card1 h1{
+        font-size: 14px;
+        margin-top: 7%;
+    }
+    .card1 p{
+        font-size: 10px;
+        width: 135px;
+    }
+    .card1{
+        height: 285px;
+    }
+    .card2 h1{
+        font-size: 14px;
+        margin-top: 7%;
+    }
+    .card2 p{
+        font-size: 10px;
+        width: 135px;
+    }
+    .card2{
+        height: 285px;
+    }
+    .card3 h1{
+        font-size: 14px;
+        margin-top: 7%;
+    }
+    .card3 p{
+        font-size: 10px;
+        width: 135px;
+    }
+    .card3{
+        height: 285px;
+    }
+    .card4 h1{
+        font-size: 14px;
+        margin-top: 7%;
+    }
+    .card4 p{
+        font-size: 10px;
+        width: 135px;
+    }
+    .card4{
+        height: 285px;
+    }
+    .next img{
+        width: 22px;
+    }
+    .prev img{
+        width: 22px;
+    }
+    .b-text1 h2{
+        font-size: 16px;
+    }
+    .b-text1{
+        margin-left: -109%;
+    }
+    .b-text1 p{
+        font-size: 13px;
+        line-height: 19px;
+        width: 38%;
+    }
+    .other{
+        font-size: 13px;
+        line-height: 19px;
+    }
+    .one{
+        height: 215px;
+    }
+    .b-text2 h2{
+        font-size: 16px;
+    }
+    .b-text2{
+        margin-left: -109%;
+    }
+    .b-text2 p{
+        font-size: 13px;
+        line-height: 19px;
+        width: 38%;
+    }
+    .b-text2 h3{
+        font-size: 13px;
+        line-height: 19px;
+    }
+    .two{
+        height: 215px;
+    }
+    .b-text3 h2{
+        font-size: 16px;
+    }
+    .b-text3{
+        margin-left: -109%;
+    }
+    .b-text3 p{
+        font-size: 13px;
+        line-height: 19px;
+        width: 38%;
+    }
+    .b-text3 h3{
+        font-size: 13px;
+        line-height: 19px;
+    }
+    .three{
+        height: 215px;
+    }
+    .filter-nav{
+        font-size: 20px;
+    }
+    .starter h1{
+        font-size: 28px;
+    }
+    .starter h2{
+        font-size: 14px;
+        width: 175px;
+    }
+    #open__modal1{
+        width: 95px;
+        height: 35px;
+        font-size: 10px;
+        margin-top: 32px;
+    }
+    #open__modal1 img{
+        width: 16px;
+        margin-left: 7px;
+        margin-top: 4%;
+    }
+    .cost h3{
+        font-size: 24px;
+    }
+    .premium h1{
+        font-size: 28px;
+    }
+    .premium h2{
+        font-size: 14px;
+        width: 175px;
+    }
+    .premium button{
+        width: 180px;
+        font-size: 12px;
+    }
+    .accordion-block{
+        font-size: 15px;
     }
 }
